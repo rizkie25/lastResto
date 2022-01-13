@@ -3,13 +3,13 @@ int calculate() {
 }
 
 String nama() {
-  return "rizkie";
+  return 'rizkie';
 }
 
 String login(String username, String password) {
-  if (username == "rizkie" && password == "123456") {
-    return "Login berhasil";
+  if (username == 'user' && password == 'pass') {
+    return 'Login anda berhasil';
   } else {
-    return "Login gagal";
+    return 'Maaf, login anda gagal !';
   }
 }
