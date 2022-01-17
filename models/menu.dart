@@ -1,5 +1,11 @@
-class Menu {
+class Makanan {
   String namaMenu;
   int hargaMenu;
-  Menu(this.namaMenu, this.hargaMenu);
+  Makanan(this.namaMenu, this.hargaMenu);
+}
+
+class Minuman {
+  String namaMenu;
+  int hargaMenu;
+  Minuman(this.namaMenu, this.hargaMenu);
 }

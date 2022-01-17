@@ -5,11 +5,3 @@ int calculate() {
 String nama() {
   return 'rizkie';
 }
-
-String login(String username, String password) {
-  if (username == 'user' && password == 'pass') {
-    return 'Login anda berhasil';
-  } else {
-    return 'Maaf, login anda gagal !';
-  }
-}
